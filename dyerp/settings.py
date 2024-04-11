@@ -86,7 +86,9 @@ DATABASES = {
         'NAME': 'dy_data_erp',
         'USER': 'root',
         'PASSWORD': 'admin_123',
-        'HOST': '127.0.0.1',
+        # 'HOST': '127.0.0.1',
+        # 'HOST': '47.102.86.240',
+        'HOST': 'host.docker.internal',
         'PORT': '3306',
     }
 }
